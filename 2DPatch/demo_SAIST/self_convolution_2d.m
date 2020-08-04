@@ -1,4 +1,16 @@
 function  pos_arr   =  self_convolution_2d(im, par)
+
+%PROCESSSTATIC Summary of this function goes here
+%   Detailed explanation goes here
+% Goal : self-convolution to replace original block matching (searching K most similar patches of each reference patch)
+% Inputs:
+%   1. im      : image, Height*Width
+%   2. par             : self-mm parameters
+% Output:
+%   1. pos_arr         : K most similar patches for every reference patch
+%   within search window, K*num_patches
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 S         =   30;
 f         =   par.win;
 s         =   par.step;
