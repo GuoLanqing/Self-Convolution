@@ -26,7 +26,7 @@ usage: run `demo_rgbnir_denoising.m` (a RGB-NIR image denoising demo)
 
 Experimental Results
 -----
-Runtime (in seconds) comparisons of non-local algorithms using BM and Self-Convolution, for denoising 512 $\times$ 512 single-channel images and 256 $\times$ 256 $\times$ q multi-channel images, where BMtime\% denotes the runtime portion of BM.
+Runtime (in seconds) comparisons of non-local algorithms using BM and Self-Convolution, for denoising 512 $\times$ 512 single-channel images (first 7 rows) and 256 $\times$ 256 $\times$ q multi-channel images  (last 3 rows), where BMtime\% denotes the runtime portion of BM.
 
 |  Method   | Original Runtime | Self-Conv Runtime | BMtime\% |Original BM | Self-Conv | Speed-Ups|
 |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |
