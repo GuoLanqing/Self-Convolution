@@ -3,6 +3,7 @@ clear;
 %addpath('Utilities');
 Test_image_dir     =    'Data\Denoising_test_images';
 
+addpath('../')
 
 %----------------------------------------------------------
 % Experiment 1
