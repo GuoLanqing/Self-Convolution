@@ -17,7 +17,10 @@ Usage
 
 Example method: [SAIST](http://see.xidian.edu.cn/faculty/wsdong/Papers/Journal/TIP_LASSC.pdf)
 
-Usage: 1. replace `Block_matching.m` function with our `self_convolution_2d.m` function (2d here means the size of search window)
+Usage: 
+
+1. replace `Block_matching.m` function with our `self_convolution_2d.m` function (2d here means the size of search window)
+
 2. run `Denoising_Main.m` (a gray-scale image denoising demo)
 
 * 3D Patch
