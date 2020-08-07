@@ -3,7 +3,9 @@
 Description
 -----
 
-The package includes: 1. directory `demo_Self-MM` (the original Self-MM program)
+The package includes: 
+
+1. directory `demo_Self-MM` (the original Self-MM program)
 
 [Self-MM](https://arxiv.org/abs/2006.13714) is a multi-modality image denoising framework based on self-covolution and online sparse and group low-rank model learning scheme.
 
