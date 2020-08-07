@@ -31,7 +31,7 @@ Running the Code
 -----
 
 - **A Simple Example**<br />
-  For a RGB-NIR image denoising example run the 'demo_rgbnir_denoising.m' file.
+  For a RGB-NIR image denoising example run the `demo_rgbnir_denoising.m` file.
 
 Requirements and Dependencies
 -----
