@@ -1,7 +1,7 @@
 clear all;
 sigma = 10;
 load('./data/RGB-NIR/016.mat');
-addpath('../')
+
 % test
 imcat_AB = imcat_AB(1:200,1:200,:);
 

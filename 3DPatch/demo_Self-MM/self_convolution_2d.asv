@@ -4,13 +4,16 @@ function  [NLBLK, GridX,GridY]  =  self_convolution_2d(Xr, X, Param, Height, Wid
 %   Detailed explanation goes here
 % Goal : self-convolution to replace original block matching (searching K most similar patches of each reference patch)
 % Inputs:
-%   1. Xr      : 
-%   2. X            : extracted patches, 
-%   3. blk_arr           : block matching result (indices)
-%   4. param             : self-mm parameters
+%   1. Xr      : Height*Width*Channels
+%   2. X            : extracted patches, patch_size*num_patches
+%   3. param             : parameters
+%      - PatchNO         : number of similar patches (K)
+%      - PatchSize       : size of image patch
+%      - SearchWin              : size of search window
+%      - step               :
 % Output:
-%   6. NLBLK     : 
-%   7. weights           : temporal weights, aa * bb * K * 2
+%   1. NLBLK     : K most similar patches for every reference patch
+%   within search window, K*num_patches
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 PatchNO  = 30;          PatchSize  = 8;  SW  = 20; s = 1; 
