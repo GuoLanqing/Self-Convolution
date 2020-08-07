@@ -3,7 +3,9 @@
 Description
 -----
 
-The package includes: 1. the original SAIST program (directory `demo_SAIST`)
+The package includes: 
+
+1. the original SAIST program (directory `demo_SAIST`)
 
 2. 2D image patch and 2D search window version of self-convolution `self_convolution_2d.m`
 
