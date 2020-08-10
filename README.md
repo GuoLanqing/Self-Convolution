@@ -7,7 +7,7 @@ Self-Convolution is a self-supervised and highly-efficient image operator that e
 
 ![avatar](self-conv.png)
 
-This repo contains the Matlab code package of Self-Convolution which focuses on equivalent  implementation of block matching, which includes 2D-patch and 3D-patch versions of Self-Convolution (dimension of the reference image patch). For each version, we provide a demo to show Self-Convolution can speed up the non-local denoising algorithm. To be specific, [SAIST](http://see.xidian.edu.cn/faculty/wsdong/Papers/Journal/TIP_LASSC.pdf) as an example of 2D patch, and our proposed multi-modality image denoising method [Self-MM](https://arxiv.org/abs/2006.13714) as example of 3D patch. 
+This repo contains the Matlab code package of Self-Convolution which focuses on equivalent  implementation of block matching, which includes 2D-patch and 3D-patch versions of Self-Convolution (dimension of the reference image patch). For each version, we provide a demo to show Self-Convolution can speed up the non-local denoising algorithm. To be specific, [SAIST](http://see.xidian.edu.cn/faculty/wsdong/Papers/Journal/TIP_LASSC.pdf) as an example method relying on 2D patches, and our proposed multi-modality image denoising method [Self-MM](https://arxiv.org/abs/2006.13714) as example of 3D patch. 
 
 The Self-Convolution functions can be plugged in any block matching based image restoration method, just follow the similar usage steps.
 
@@ -19,7 +19,7 @@ Example method: [SAIST](http://see.xidian.edu.cn/faculty/wsdong/Papers/Journal/T
 
 Usage: 
 
-1. replace `Block_matching.m` function with our `self_convolution_2d.m` function (2d here means the size of search window)
+1. replace `Block_matching.m` function with our `self_convolution_2d.m` function (2d here refers to the two-dimensional search window)
 
 2. run `Denoising_Main.m` (a gray-scale image denoising demo)
 
