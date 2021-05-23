@@ -5,7 +5,7 @@ Description
 
 Self-Convolution is a self-supervised and highly-efficient image operator that exploits non-local similarity. Self-Convolution can generalize many commonly-used non-local schemes, including block matching and non-local means. 
 
-![avatar](self-conv.png)
+![avatar](Self-Conv.pdf)
 
 This repo contains the Matlab code package of Self-Convolution which focuses on equivalent  implementation of block matching, which includes 2D-patch and 3D-patch versions of Self-Convolution (dimension of the reference image patch). For each version, we provide a demo to show Self-Convolution can speed up the non-local denoising algorithm. To be specific, [SAIST](http://see.xidian.edu.cn/faculty/wsdong/Papers/Journal/TIP_LASSC.pdf) as an example method relying on 2D patches, and our proposed multi-modality image denoising method [Self-MM](https://arxiv.org/abs/2006.13714) as example of 3D patch. 
 
@@ -50,18 +50,21 @@ All the experiments are carried out in the Matlab (R2019b) environmentrunning on
 
 Citation
 -----
-Paper available [here](https://arxiv.org/abs/2006.13714). 
+Paper available [here](https://ieeexplore.ieee.org/document/9414124). 
 
 In case of use, please cite our publication:
 
-Guo L, Ravishankar S, Wen B. Self-Convolution: A Highly-Efficient Operator for Non-Local Image Restoration[J]. arXiv preprint arXiv:2006.13714, 2020.
+L. Guo, Z. Zha, S. Ravishankar and B. Wen, "Self-Convolution: A Highly-Efficient Operator for Non-Local Image Restoration," ICASSP 2021.
 
 Bibtex:
 ```
-@article{guo2020self,
-  title={Self-Convolution: A Highly-Efficient Operator for Non-Local Image Restoration},
-  author={Guo, Lanqing and Ravishankar, Saiprasad and Wen, Bihan},
-  journal={arXiv preprint arXiv:2006.13714},
-  year={2020}
-}
+@INPROCEEDINGS{9414124,
+  author={Guo, Lanqing and Zha, Zhiyuan and Ravishankar, Saiprasad and Wen, Bihan},
+  booktitle={ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Self-Convolution: A Highly-Efficient Operator for Non-Local Image Restoration}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1860-1864},
+  doi={10.1109/ICASSP39728.2021.9414124}}
 ```
