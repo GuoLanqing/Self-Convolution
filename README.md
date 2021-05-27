@@ -51,6 +51,7 @@ All the experiments are carried out in the Matlab (R2019b) environmentrunning on
 Citation
 -----
 Paper available [here](https://ieeexplore.ieee.org/document/9414124). 
+Long Journal Version [preprint](https://arxiv.org/pdf/2006.13714). 
 
 In case of use, please cite our publication:
 
