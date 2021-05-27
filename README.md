@@ -37,7 +37,7 @@ Runtime (in seconds) comparisons of non-local algorithms using BM and Self-Convo
 |  ----  | ----  | ----  | ----  | ----  | ----  | ----  |
 | [SAIST](http://see.xidian.edu.cn/faculty/wsdong/Papers/Journal/TIP_LASSC.pdf) | 708.2 | 562.2 | 32.0\% |227.0 |78.6 |3X |
 | [WNNM](https://ieeexplore.ieee.org/document/6909762) | 63.2 | 43.8 | 36.9\% | 23.3 |7.8| 3X |
-| [STROOLR](http://ieeexplore.ieee.org/abstract/document/7952566/) | 87.7 | 68.9 | 36.7\% | 38.2 | 13.3 | 3X |
+| [STROLLR](http://ieeexplore.ieee.org/abstract/document/7952566/) | 87.7 | 68.9 | 36.7\% | 38.2 | 13.3 | 3X |
 | [GHP](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Zuo_Texture_Enhanced_Image_2013_CVPR_paper.pdf)|  412.6 | 218.3 |69.9\% |288.6 |94.2 |3X|
 | [NCSR](http://www4.comp.polyu.edu.hk/~cslzhang/paper/NCSR_TIP_final.pdf) |  134.7 | 82.4 | 57.1\% | 76.9 | 28.1 | 3X |
 | [PGPD](http://www4.comp.polyu.edu.hk/~cslzhang/paper/PGPD.pdf) |  305.2 | 89.6 | 85.3\%| 260.3  | 41.3 | 6X|
