@@ -8,9 +8,9 @@ function  [NLBLK, GridX,GridY]  =  self_convolution_2d(Xr, X, Param, Height, Wid
 %   2. X            : extracted patches, patch_size*num_patches
 %   3. param             : parameters
 %      - PatchNO         : number of similar patches (K)
+%      - step            : step of extracting patches
 %      - PatchSize       : size of image patch
 %      - SearchWin       : size of search window
-%      - step            : step of extracting patches
 % Output:
 %   1. NLBLK     : K most similar patches for every reference patch
 %   within search window, param.PatchNO*num_patches
