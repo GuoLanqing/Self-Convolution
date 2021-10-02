@@ -6,9 +6,10 @@ function  pos_arr   =  self_convolution_2d(im, par)
 % Inputs:
 %   1. im      : image, Height*Width
 %   2. par             : parameters
-%      - win           : search winodw size
-%      - step          : step of extracting patches
+%      - win           : patch size
 %      - nblk          : number of similar patches (K)
+%      - step          : step of extracting patches
+%   3. S       : search window size
 % Output:
 %   1. pos_arr         : K most similar patches for every reference patch
 %   within search window, par.nblk*num_patches
