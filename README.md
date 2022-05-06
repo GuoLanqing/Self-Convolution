@@ -69,3 +69,12 @@ Bibtex:
   pages={1860-1864},
   doi={10.1109/ICASSP39728.2021.9414124}}
 ```
+```
+@article{guo2022exploiting,
+  title={Exploiting Non-Local Priors via Self-Convolution For Highly-Efficient Image Restoration},
+  author={Guo, Lanqing and Zha, Zhiyuan and Ravishankar, Saiprasad and Wen, Bihan},
+  journal={IEEE Transactions on Image Processing},
+  year={2022},
+  publisher={IEEE}
+}
+```
